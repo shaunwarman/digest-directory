@@ -1,0 +1,35 @@
+{
+  "babelrcDir": null,
+  "envNames": [],
+  "dependencies": [
+    {
+      "default": true,
+      "envs": [],
+      "filename": "/Users/swarman/Development/Source/superfriends/digest-directory/node_modules/@ava/babel-preset-stage-4/index.js",
+      "fromPackage": "/Users/swarman/Development/Source/superfriends/digest-directory/node_modules/@ava/babel-preset-stage-4",
+      "hash": "07547085f29a6624491806b121be9e54"
+    },
+    {
+      "default": true,
+      "envs": [],
+      "filename": "/Users/swarman/Development/Source/superfriends/digest-directory/node_modules/@ava/babel-preset-transform-test-files/index.js",
+      "fromPackage": "/Users/swarman/Development/Source/superfriends/digest-directory/node_modules/@ava/babel-preset-transform-test-files",
+      "hash": "dcb6ef33708aa2ce0d5b57ff03b0bfb0"
+    },
+    {
+      "default": true,
+      "envs": [],
+      "filename": "/Users/swarman/Development/Source/superfriends/digest-directory/node_modules/babel-plugin-syntax-object-rest-spread/lib/index.js",
+      "fromPackage": "/Users/swarman/Development/Source/superfriends/digest-directory/node_modules/babel-plugin-syntax-object-rest-spread",
+      "hash": "602c3d7f5d4bc2031c2f56e24614e4d3"
+    }
+  ],
+  "sources": [
+    {
+      "default": true,
+      "envs": [],
+      "source": "(AVA) Base Babel config",
+      "hash": "7de019a55849b1bfcc3458a6d218dd1e"
+    }
+  ]
+}
