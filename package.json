@@ -1,7 +1,7 @@
 {
   "name": "digest-directory",
   "description": "Get hash from directory content",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "Shaun Warman <shaunwarman1@gmail.com> (https://shaunwarman.com)",
   "ava": {
     "failFast": true,
