@@ -44,6 +44,9 @@ const dirpath = '/path/to/directory';
 // ... in async function
 const hash = await digest(dirpath);
 
+// ... with filter function
+const hash = await digest(dirpath, fileName => fileName !== '/tmp/exclude.this');
+
 console.log(hash);
 // 62911adae73552fa3bc8691d2ca3b3e0
 ```

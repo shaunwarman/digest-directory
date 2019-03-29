@@ -3,8 +3,12 @@ const crypto = require('crypto');
 const digest = require('file-digest');
 const readdir = require('recursive-readdir');
 
-module.exports = async (dirpath, filter) => {
+module.exports = async (dirpath, filter = null) => {
   assert(typeof dirpath === 'string', 'directory path must be a string!');
+  assert(
+    filter === null || typeof filter === 'function',
+    'filter must be a function or null!'
+  );
 
   const hash = crypto.createHash('md5');
 
